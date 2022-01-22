@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en-US">
+    <title>Finish Authorization</title>
+    <body onload="run()"></body>
+
+    <button onclick="myFunction()">Click to Finish Authorization</button>
+
+    <script>
+        function myFunction() {
+			window.open("com.musicslayer.cryptobuddy://oauth" + window.location.search, "_self")
+			window.close();
+        }
+    </script>
+</html>
